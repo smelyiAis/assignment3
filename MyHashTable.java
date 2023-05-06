@@ -111,6 +111,5 @@ class MyTestingClass {
 
     @Override
     public int hashCode() {
-        // custom hash function that returns the value modulo the table size
         return value % 11;
 
