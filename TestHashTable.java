@@ -12,8 +12,6 @@ public class TestHashTable {
             Student value = new Student(name, id);
             table.put(key, value);
         }
-
-        // print the number of elements in each bucket
         int[] bucketSizes = new int[table.getM()];
         for (int i = 0; i < table.getM(); i++) {
             int size = 0;
